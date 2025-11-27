@@ -5,9 +5,9 @@ This project implements a **hardware accelerator** for activation functions used
 The goal is to **reduce inference time** and **power consumption** by offloading non-linear computation from CPU/GPU to a dedicated FPGA module.
 
 Key features:
-- Support for multiple activation types (configurable at runtime)
+- Support for multiple activation types.
 - Caculate based on the hardware friendly format - bf16
-- AXI-Stream interface for easy integration with PS
+- Tool chain to config the data stream.
 - High-throughput parallel mode
 
 ---
@@ -26,8 +26,7 @@ The accelerator consists of:
 | :--- | :--- |
 | **Target Hardware (FPGA)** | Xilinx KV260 Zynq UltraScale+ MPSoC|
 | **Design Language** |Verilog HDL|
-| **Development Toolchain** | **Xilinx Vivado, Jupyter Notebook** |
+| **Development Toolchain** | **Xilinx Vivado 2024.02, Jupyter Notebook** |
 | **Operating System** | Linux (Ubuntu 22.04) |
 
 ---
-
