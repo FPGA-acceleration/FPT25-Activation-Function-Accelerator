@@ -30,3 +30,5 @@ The accelerator consists of:
 | **Operating System** | Linux (Ubuntu 22.04) |
 
 ---
+
+Our github website: [https://github.com/FPGA-acceleration/Activation_Func_Accelerate.git](https://github.com/FPGA-acceleration/Activation_Func_Accelerate.git)

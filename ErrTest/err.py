@@ -2,7 +2,7 @@ import torch
 import numpy as np
 
 # === 1. Load ref_softmax.pt ===
-ref = torch.load("ref_add_bf16.pt", weights_only=True)
+ref = torch.load("ref_softmax_bf16.pt", weights_only=True)
 
 # Convert to float32 (bfloat16 cannot be directly computed)
 if ref.dtype == torch.bfloat16:
@@ -31,7 +31,7 @@ ref = np.nan_to_num(ref, nan=0.0, posinf=0.0, neginf=0.0)
 result = np.nan_to_num(result, nan=0.0, posinf=0.0, neginf=0.0)
 
 # === 4. Select focus rows for each function ===
-idx = np.r_[46:53]
+idx = np.r_[0:63]
 
 # === 5. Compute L2 relative error ===
 num = np.linalg.norm(ref[idx] - result[idx])
