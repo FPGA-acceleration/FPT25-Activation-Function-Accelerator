@@ -31,6 +31,6 @@ The accelerator consists of:
 
 ---
 
-Our github website: [https://github.com/FPGA-acceleration/Activation_Func_Accelerate.git](https://github.com/FPGA-acceleration/Activation_Func_Accelerate.git)
 This work won the first prize of FPGA Competition Session in FPT 2025.
+
 
