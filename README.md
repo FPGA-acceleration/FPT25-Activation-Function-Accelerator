@@ -217,12 +217,6 @@ If you use this work, please cite:
 
 ---
 
-## 🙏 Acknowledgements
-
-This work was supported in part by the National Natural Science Foundation of China under Grant 62174084 and 62341408.
-
----
-
 ## 📜 License
 
 This project is licensed under the [MIT License](./LICENSE).
