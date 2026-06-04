@@ -202,7 +202,6 @@ This work has been published at **IEEE International Conference on Field-Program
 
 - **Title:** *Reconfigurable Dataflow Architecture for Multiple Activation Functions on FPGA*
 - **Authors:** Runsen An, Xinling Xie, Hua Yuan, Jun Lin — *Nanjing University*
-- **PDF:** [IEEE_FPT_Conference.pdf](./IEEE_FPT_Conference.pdf)
 
 If you use this work, please cite:
 
