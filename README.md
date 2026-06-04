@@ -75,7 +75,7 @@
 ## 🏗️ Architecture
 
 <div align="center">
-  <img src="./docs/framework_v2_01.png" alt="River Architecture Overview" width="85%">
+  <img src="./docs/architecture.png" alt="River Architecture Overview" width="85%">
 </div>
 
 River employs a **reconfigurable dataflow architecture** where activation functions are decomposed into fine-grained primitive operators (exp, accumulation, reciprocal, etc.). These primitives are mounted onto an interconnect fabric and dynamically chained to form different computation pipelines — all sharing the same hardware resources.
@@ -191,7 +191,7 @@ aarch64-linux-gnu-gcc -o config.so -shared -fPIC config.c
 ├── ErrTest/                   # Accuracy verification
 │   └── err.py                 #   L2 relative error test script
 └── docs/                      # Documentation & assets
-    └── framework_v2_01.png    #   Architecture diagram (from paper)
+    └── architecture.png       #   Architecture diagram (from paper)
 ```
 
 ---
