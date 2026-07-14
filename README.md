@@ -1,7 +1,5 @@
 <div align="center">
 
-# 🌊 River
-
 ### LLM Activation Function Accelerator on FPGA
 
 **A reconfigurable dataflow architecture that unifies multiple activation functions into a single FPGA fabric with BF16 precision — featuring primitive-operator composition for custom pipeline design.**
